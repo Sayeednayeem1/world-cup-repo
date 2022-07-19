@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* this part is for the header */
+/* and the banner */
+.container{
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 139px;
+    border-radius: 30px;
+}
+.half-width{
+    color: white;
+    font-weight: 700;
+    width: 50%;
+    height: 230px;
+    padding-left: 106px;
+    padding-top: 100px;
+    padding-bottom: 111px;
+}
+.half-width h1{
+    font-size: 40px;
+}
+.link{
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.id{
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+}

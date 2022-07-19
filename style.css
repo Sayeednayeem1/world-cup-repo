@@ -17,7 +17,7 @@ body{
     width: 50%;
     height: 230px;
     padding-left: 106px;
-    padding-top: 100px;
+    padding-top: 111px;
     padding-bottom: 111px;
 }
 .half-width h1{
@@ -32,4 +32,33 @@ body{
     text-decoration: none;
     color: white;
     font-weight: 700px;
+}
+/* from here second section */
+/* will be starting */
+
+
+.blog{
+    display: grid;
+    grid-column: auto;
+    background-color: black;
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    padding-top: 20px;;
+    border-radius: 10px;
+}
+.blog-link{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+#color-blog{
+    color: white;
+    font-weight: 700;
+    background-color: #DD0000;
 }

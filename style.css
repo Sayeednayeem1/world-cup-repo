@@ -166,3 +166,40 @@ hr{
         padding: 20px;
     }
 }
+/* Tablets */
+@media screen and (min-width:689px) and (max-width:992px) {
+    .container{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 5px
+    }
+    .half-width{
+        width: 50%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .half-width img{
+        width: 100%;
+        height: auto;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-box{
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 100px;
+    }
+    .footer-link{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 40px;
+    }
+    .icons{
+        padding: 20px;
+    }
+}

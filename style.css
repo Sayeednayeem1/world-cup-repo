@@ -127,3 +127,42 @@ hr{
     font-weight: 700px;
     padding-right: 60px;
 }
+/* Media Queries */
+/* Mobile Devices */
+
+@media screen and (max-width: 688px) {
+    .container{
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 5px
+    }
+    .half-width{
+        width: 50%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .half-width img{
+        width: 100%;
+        height: auto;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-box{
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 100px;
+    }
+    .footer-link{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 40px;
+    }
+    .icons{
+        padding: 20px;
+    }
+}

@@ -64,15 +64,31 @@ body{
 }
 /* transfer related */
 
+.bigger-container{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 139px;
+}
 .second-section{
     display: flex;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.grid-box .mo-salah img{
+    width: 100%;
+    height: auto;
+}
+.mo-salah{
+    border: 1px solid lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
 }
 .info{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.grid-box{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }

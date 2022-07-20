@@ -30,12 +30,18 @@ body{
     background-color: #DD0000;
     padding: 10px 20px;
     border-radius: 10px;
+    transition: padding 2s;
 }
 .id{
     text-decoration: none;
     color: white;
     font-weight: 700px;
 }
+.link:hover{
+    padding: 40px 40px;
+    background-image: linear-gradient(#E55D87,#5FC3E4);
+}
+
 /* from here second section */
 /* will be starting */
 

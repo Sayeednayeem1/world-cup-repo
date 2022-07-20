@@ -1,5 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
 }
 /* this part is for the header */
 /* and the banner */
@@ -91,4 +94,36 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+/* Footer styles are here */
+
+.footer{
+    background-color: black;
+}
+hr{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.footer h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.footer div{
+    text-align: center;
+    padding: 40px 40px;
+}
+.footer-link{
+    color: white;
+    font-weight: 700px;
+    text-decoration: none;
+    padding-right: 30px;
+}
+.icons{
+    font-size: 40px;
+    color: white;
+    font-weight: 700px;
+    padding-right: 60px;
 }

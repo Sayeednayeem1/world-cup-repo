@@ -62,3 +62,17 @@ body{
     font-weight: 700;
     background-color: #DD0000;
 }
+/* transfer related */
+
+.second-section{
+    display: flex;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
